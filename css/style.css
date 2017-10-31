@@ -1,41 +1,107 @@
-html,
 body {
-  height: 100%;
-  width: 100%;
+    margin: 0;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Droid Serif', serif;
+    position: relative;
 }
 
-.nav {
-  padding: 10px;
-  font-family: fa fa-wa
+nav {
+    color: white;
+    font-size: 1.3em;
 }
 
-#fixed {
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
+a {
+    color: inherit;
+}
+.header h1 {
+    margin-top: 150px;
+    margin-bottom: 10vh;
+    text-align: center;
+    
+}
+.header h4 {
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-#home {
-  background: url(http://res.cloudinary.com/mayerxc/image/upload/v1469061035/track_fancy_lskjnp.jpg) no-repeat center center fixed;
-  padding: 100px;
-  background-size: cover;
+.header img {
+    border-radius: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+.header {
+    color: black;
+    overflow: auto;
+/*    overflow-y: visible;*/
+/*    height: 100vh;*/
+    background: url(https://res.cloudinary.com/mayerxc/image/upload/o_30/v1508255534/marvin-ronsdorf-196913_agdpml.jpg) no-repeat center center fixed/*fixed repeat-y center */;
+    background-size: cover;
 }
 
-#about {
-  background: url(http://res.cloudinary.com/mayerxc/image/upload/v1469060966/ashland_oregon_swheqp.jpg) no-repeat center center fixed;
-  background-color: teal;
-  padding: 100px;
+h1 {
+    text-align: center;
+}
+
+#about{
+    overflow:auto;
+}
+
+.card-text{
+    padding:10px;
+    
+}
+
+.card h4 {
+    padding-top: 10px;
+}
+#about img {
+    border-radius: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+#about h1 {
+    margin-top: 10vh;
+    margin-bottom:  10vh;
+}
+
+.card {
+    margin: 10px;
+}
+
+.row {
+    width: 99%;
 }
 
 #portfolio {
-  background-color: black;
-  padding: 100px;
-  background: url(http://res.cloudinary.com/mayerxc/image/upload/v1469059458/kitty2_bmkwta.jpg) no-repeat center center fixed;
+    overflow: auto;
+    background: url(http://res.cloudinary.com/mayerxc/image/upload/o_40/v1508255539/steven-coffey-350494_kpgdrc.jpg) no-repeat center center fixed/*fixed  center repeat-y*/;
+    background-size: cover;
+/*    height: 500px;*/
+    padding-right: 5vw;
+    padding-left: 5vw;
+    
+}
+#portfolio h1 {
+    margin-top: 10vh;
+    margin-bottom:  10vh;
+}
+#portfolio .card-title {
+    text-align: center;
 }
 
-#contact {
-  background-color: green;
-  padding: 100px;
-  background: url(http://res.cloudinary.com/mayerxc/image/upload/v1469060859/treehouse_beer_zln4cu.jpg) no-repeat center center fixed;
+#contact h1 {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+#contact img {
+    height: 20vh;
+    width: 50px;
+    
 }

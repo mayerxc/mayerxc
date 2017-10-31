@@ -1,109 +1,229 @@
 <!DOCTYPE html>
 <html >
-  <head>
+<head>
     <meta charset="UTF-8">
-    <title>Portfolio practice</title>
-      <!-- Website Title & Description for Search Engine purposes -->
-  <title>My Portfolio</title>
-  <meta name="Portfolio" content="Freecodecamp Portfolio by Mayerxc">
-
-  <!-- Mobile viewport optimized -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Droid+Serif|Ubuntu" rel="stylesheet">
     
-    
-    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css'>
+<!--    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.1/css/mdb.min.css'>-->
+    <link rel="stylesheet" href="css/style.css">
 
-        <link rel="stylesheet" href="css/style.css">
 
-    
-    
-    
-  </head>
+</head>
 
-  <body>
+<body data-spy="scroll" data-target=".navbar" data-offset="100">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+        <!--Navbar Brand -->
+        <a class="navbar-brand" href="#">Chris Mayer</a>
 
-    <nav role="navigation" id="fixed" class="navbar navbar-default">
-  <!-- Brand and toggle get grouped for better mobile display -->
+        <!--Collapse button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
 
-  <div class="container-fluid">
+        <!--collapse content  -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-    <div class="navbar-header">
-      <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-        </button>
-      <a href="#home" class="navbar-brand">Chris Mayer</a>
+            <!--links! -->
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#portfolio" class="nav-link" >Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="home" class="header">
+        <h1>Hello, I am Chris</h1>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="card">
+                        <div class="card-block">
+                            <h4 class="card-title">Full-stack Developer - Scientist - Runner</h4>
+                            <p class="card-text">Full-stack developer with a research scientist background in the pharmaceutical industry and a passion for learning. Known for depth and breadth of research skill complete with a unique ability to develop software tools and mine data in order to help companies achieve their business objectives.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img src="http://res.cloudinary.com/mayerxc/image/upload/v1479657587/blueback_zrleta.jpg" class="img-fluid" id="race">
+                </div>
+
+            </div> <!-- end class="row" -->
+        </div>
+
     </div>
 
-    <!-- Collection of nav links and other content for toggling -->
+    <section id="about">
+        <h1>About</h1>
+        <div class="container">
+            <div class="row justify-content-center">
+    <!--            <div class="col-lg-1"></div>-->
+                <div class="col-lg-4 text-center">
+                    <img src="https://res.cloudinary.com/mayerxc/image/upload/a_exif/v1508260441/IMG_1970_wehbl8.jpg" class="img-fluid" id="portfolioPic">
+                </div>
+                <div class="col-lg-8">
+                    <div class="card">
+                        <div class="card-block">
+                            <p class="card-text">Previously working with laboratory robotic automation to perform early discovery pharmaceutical experiments has inspired me to learn full-stack web development. I am enjoying building apps and bots with my bootcamp cohorts and continuing the learning journey. In my free time I love to do endurance sports and travel.</p>
+                        </div>
+                    </div>
+                </div>
+    <!--            <div class="col-lg-1"></div>-->
+            </div>
+        </div>
+    </section>
+    <section id="portfolio">
+        <h1>Portfolio</h1>
 
-    <div id="navbarCollapse" class="collapse navbar-collapse">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card">
+                        <a href="https://codepen.io/mayerxc/full/WOoVVd/" target="_blank">
+                           <img class="img-fluid" src="https://res.cloudinary.com/mayerxc/image/upload/v1508274207/random_quote_machine_wm8bol.png" alt="Random Quote Machine" />
+                        </a>
+                        <div class="card-block">
+                            <h4 class="card-title"><a href="https://codepen.io/mayerxc/full/WOoVVd/" target="_blank">Random Quote Machine</a></h4>
+                            <p class="card-text text-center">Tools used were Jquery and Bootstrap. Used quotesondesign.com API data.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="card">
+                        <a href="https://codepen.io/mayerxc/full/EyKYJX/" target="_blank">
+                           <img class="img-fluid" src="https://res.cloudinary.com/mayerxc/image/upload/v1508604599/wikipediaviewer_chys7w.png" alt="Wikipedia Viewer" />
+                        </a>
+                        <div class="card-block">
+                            <h4 class="card-title"><a href="https://codepen.io/mayerxc/full/EyKYJX/" target="_blank">Wikipedia Viewer</a></h4>
+                            <p class="card-text text-center">Tools used were Jquery and Bootstrap. Used wikipedia.com API data to get array of search results.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="card">
+                        <a href="https://codepen.io/mayerxc/full/WGavko/" target="_blank">
+                           <img class="img-fluid" src="https://res.cloudinary.com/mayerxc/image/upload/v1508605588/simon_game_n78pbo.png" alt="Wikipedia Viewer" />
+                        </a>
+                        <div class="card-block">
+                            <h4 class="card-title"><a href="https://codepen.io/mayerxc/full/WGavko/" target="_blank">Simon Game</a></h4>
+                            <p class="card-text text-center">Tools used were Jquery and bootstrap. Used quotesondesign.com API data.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card">
+                        <a href="https://codepen.io/mayerxc/full/PzrPaz/" target="_blank">
+                           <img class="img-fluid" src="https://res.cloudinary.com/mayerxc/image/upload/v1509375142/javascript_calculator_pcm4ps.png" alt="Javascript Calculator" />
+                        </a>
+                        <div class="card-block">
+                            <h4 class="card-title"><a href="https://codepen.io/mayerxc/full/PzrPaz/" target="_blank">JavaScript Calculator</a></h4>
+                            <p class="card-text text-center">Tools used were JavaScript and Jquery. Modeled after the google calculator.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card">
+                        <a href="https://codepen.io/mayerxc/full/QEjXgp/" target="_blank">
+                           <img class="img-fluid" src="https://res.cloudinary.com/mayerxc/image/upload/v1509376819/TicTacToe_mk4q8v.png" alt="Javascript Tic Tac Toe against computer" />
+                        </a>
+                        <div class="card-block">
+                            <h4 class="card-title"><a href="https://codepen.io/mayerxc/full/QEjXgp/" target="_blank">Tic Tac Toe Game</a></h4>
+                            <p class="card-text text-center">Tools used were JavaScript, Jquery and Bootstrap.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card">
+                        <a href="https://codepen.io/mayerxc/full/bpXoXm/" target="_blank">
+                           <img class="img-fluid" src="https://res.cloudinary.com/mayerxc/image/upload/v1509377295/weather_hunrmm.png" alt="Local weather app" />
+                        </a>
+                        <div class="card-block">
+                            <h4 class="card-title"><a href="https://codepen.io/mayerxc/full/bpXoXm/" target="_blank">Local Weather App</a></h4>
+                            <p class="card-text text-center">Tools used were JavaScript, Jquery, Bootstrap and the Weather Underground API.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card">
+                        <a href="https://codepen.io/mayerxc/full/gwpGzW/" target="_blank">
+                           <img class="img-fluid" src="https://res.cloudinary.com/mayerxc/image/upload/v1509377837/pomodoro_itydhl.png" alt="Pomodoro clock" />
+                        </a>
+                        <div class="card-block">
+                            <h4 class="card-title"><a href="https://codepen.io/mayerxc/full/gwpGzW/" target="_blank">Pomodoro Clock</a></h4>
+                            <p class="card-text text-center">Tools used were JavaScript and Jquery.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card">
+                        <a href="https://codepen.io/mayerxc/full/dXXbzv/" target="_blank">
+                           <img class="img-fluid" src="https://res.cloudinary.com/mayerxc/image/upload/v1509378089/twitch_mdpgcv.png" alt="Twitch streamer status" />
+                        </a>
+                        <div class="card-block">
+                            <h4 class="card-title"><a href="https://codepen.io/mayerxc/full/dXXbzv/" target="_blank">Twitch Streamer Status App</a></h4>
+                            <p class="card-text text-center">Tools used were JavaScript, Jquery, Bootstrap and the Twitch API to receive JSON for the results.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-  </div>
-</nav>
-
-<!-- End nav section -->
-
-<!-- start "home" section -->
-<div id="home" class="container-fluid">
-  <!-- <a href="home"></a> -->
-  <div class="jumbotron">
-    <h1>This is my home section</h1>
-  </div>
-</div>
-<!-- end "home" section -->
-<!-- start "about" section -->
-<div id="about" class="container-fluid">
-  <div class="jumbotron">
-    <!-- <a href="about"></a> -->
-    <div class="row">
-        <H1>This is my about section</h1>
-    </div>
-  </div>
-</div>
-<!-- end "about" section -->
-
-<!-- start "Portfolio" section -->
-<div class="container-fluid" id="portfolio">
-  <div class="jumbotron">
-    <h1>This is my portfolio section</h1>
-
-
-  </div>
-</div>
-<!-- end "Portfolio" section -->
-
-<!-- Start "Contact" section -->
-<div class="container-fluid" id="contact">
-  <div class="jumbotron">
-    <h1>This is my contact section</h1>
+    </section>
+    <section id="contact">
+        <h1>Contact</h1>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-2 col-md-1 text-center">
+                    <a href="&#109;&#97;&#73;&#108;&#116;&#79;&#58;&#109;&#97;&#121;&#101;&#114;&#120;&#99;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">
+                        <img src="https://res.cloudinary.com/mayerxc/image/upload/v1509473467/iconmonstr-email-10_mh7qqw.svg" />
+                    </a>
+                </div>
+                <div class="col-sm-2 col-md-1 text-center">
+                   <a href="https://www.linkedin.com/in/mayerxc/" target="_blank">
+                        <img src="https://res.cloudinary.com/mayerxc/image/upload/v1509473468/iconmonstr-linkedin-4_p2fw4v.svg" />
+                    </a>
+                </div>
+                <div class="col-sm-2 col-md-1 text-center">
+                    <a href="https://github.com/mayerxc" target="_blank">
+                        <img src="https://res.cloudinary.com/mayerxc/image/upload/v1509473467/iconmonstr-github-1_enud2s.svg" />
+                    </a>
+                </div>
+                <div class="col-sm-2 col-md-1 text-center">
+                    <a href="https://www.facebook.com/mayerxc" target="_blank">
+                        <img src="https://res.cloudinary.com/mayerxc/image/upload/v1509473467/iconmonstr-facebook-4_qz7bk7.svg" />
+                    </a>
+                </div>
+                
+                
+                
+            </div>
+        </div>
+    </section>
 
 
-  </div>
-</div>
+    <!--Script tags-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    
+    
+<!--    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>-->
+<!--    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js'></script>-->
+<!--    <script src='https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.1/js/mdb.min.js'></script>-->
+    
+    <script src="js/portfolio.js"></script>
 
 
 </body>
-
-</html>
-    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js'></script>
-<script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
-<script src='http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js'></script>
-
-    
-    
-    
-    
-  </body>
 </html>
