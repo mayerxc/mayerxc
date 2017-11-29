@@ -1,3 +1,8 @@
-A Pen created at CodePen.io. You can find this one at http://codepen.io/mayerxc/pen/yOOwZL.
+My Portfolio page.
+
+See it in action at 
+http://chrismayer.me
+
+
 
  
