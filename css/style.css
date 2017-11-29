@@ -5,11 +5,12 @@ body {
     font-family: 'Ubuntu', sans-serif;
     font-family: 'Droid Serif', serif;
     position: relative;
+    
 }
 
 nav {
     color: white;
-    font-size: 1.3em;
+    /* font-size: 2rem; */
 }
 
 a {
