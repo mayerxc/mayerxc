@@ -4,24 +4,27 @@ body {
     font-family: 'Roboto', sans-serif;
     font-family: 'Ubuntu', sans-serif;
     font-family: 'Droid Serif', serif;
-    position: relative;
     
+    /* need for scrollspy */
+    position: relative;
 }
 
 nav {
     color: white;
-    /* font-size: 2rem; */
 }
 
 a {
     color: inherit;
 }
-.header h1 {
+
+/* this was when I had h1 */
+/* .header h1 {
     margin-top: 150px;
     margin-bottom: 10vh;
     text-align: center;
-    
-}
+} */
+
+
 .header h4 {
     text-align: center;
     margin-bottom: 20px;
@@ -38,9 +41,13 @@ a {
     color: black;
     overflow: auto;
 /*    overflow-y: visible;*/
-/*    height: 100vh;*/
+    /* height: 100vh; */
     background: url(https://res.cloudinary.com/mayerxc/image/upload/o_30/v1508255534/marvin-ronsdorf-196913_agdpml.jpg) no-repeat center center fixed/*fixed repeat-y center */;
     background-size: cover;
+    
+    /* need when I take out h1 */
+    padding-top:100px;
+
 }
 
 h1 {
@@ -106,4 +113,7 @@ h1 {
     height: 20vh;
     width: 50px;
     
+}
+#contact {
+    height: 90vh;
 }
