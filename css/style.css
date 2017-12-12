@@ -89,7 +89,7 @@ h1 {
 
 #portfolio {
     overflow: auto;
-    background: url(http://res.cloudinary.com/mayerxc/image/upload/o_40/v1508255539/steven-coffey-350494_kpgdrc.jpg) no-repeat center center fixed/*fixed  center repeat-y*/;
+    background: url(https://res.cloudinary.com/mayerxc/image/upload/o_40/v1508255539/steven-coffey-350494_kpgdrc.jpg) no-repeat center center fixed/*fixed  center repeat-y*/;
     background-size: cover;
 /*    height: 500px;*/
     padding-right: 5vw;
