@@ -1,6 +1,6 @@
 ## Hi, I am Chris Mayer 👋
 
-**AI Software Engineer at Travelers** focusing on AI enablement infrastructure and pipelines to operationalize emerging AI technologies across the enterprise.
+**AI Software Engineer at Travelers** focusing on AI enablement infrastructure and pipelines to build out emerging AI technologies.
 
 *Retired lab scientist* 
 
