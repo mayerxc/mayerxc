@@ -1,6 +1,6 @@
 ## Hi, I am Chris Mayer 👋
 
-**Software Engineer at Travelers**
+**AI Enablement Engineer at Travelers**
 
 *Retired lab scientist* 
 
